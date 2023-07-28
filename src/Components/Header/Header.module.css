@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo {
+  height: 3rem;
+  width: 8.0581rem;
+  margin-left: 4.5rem;
+  margin-top: 1.75rem;
+  padding: .4rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  margin-right: 4.5rem;
+}
+
+.login {
+  height: 3.5rem;
+  width: 12.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
+.btnMenu {
+  height: 3.5rem;
+  width: 12.9375rem;
+  background: none;
+  border-radius: 5.625rem;
+  border: 1px solid #49445F;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: #FFFFFF;
+}
